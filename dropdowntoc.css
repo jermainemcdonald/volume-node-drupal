@@ -1,0 +1,26 @@
+ul.dropdowntoc { list-style-type: none; }
+ul.dropdowntoc a { display: block; color: #cb8000; text-decoration: none; }
+ul.dropdowntoc a:hover { display: block; color: #672c00; text-decoration: none; background-color: #eedcb5; }
+ul.dropdowntoc li {  
+   float: left; padding: 0 20px; 
+   border: 1px dotted #cb8000; width: 800px;
+   border-style: dotted none dotted none;
+}
+ul.dropdowntoc li img { float: right; }
+ul.dropdowntoc li .issuename {
+   font-weight: bold;
+}
+ul.dropdowntoc li .specialissuename {
+   font-weight: bold;
+   color: #672c00
+}
+ul.dropdowntoc li ul { 
+   display: none; position: relative; z-index: 99;
+   list-style-type: circle;
+}
+ul.dropdowntoc li ul li { 
+   clear: both; /*margin-left: -10px; padding-left: 10px; border: 0; min-width: 150px;*/ 
+   border-style: dotted none none none; max-width: 725px;
+}
+ul.dropdowntoc li ul li:hover { background-color: #eedcb5; }
+ul.dropdowntoc li ul li:hover a { color: $672c00; }

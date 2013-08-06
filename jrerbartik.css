@@ -1,0 +1,12 @@
+.breadcrumb { display:none; } /* Hide Breadcrumb */
+h1#page-title {
+   color: #672c00;
+}
+
+p.left img {
+   float: left;
+}
+
+p.right img {
+   float: right;
+}
